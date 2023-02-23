@@ -1,0 +1,38 @@
+body{
+    background-color: orange;    
+    max-height: 100vh;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#wrapper{
+    color: aliceblue;
+max-width: 100%;
+font-size: x-large;
+text-align: center;
+}
+h2{
+ font-size: 100px;
+ font-weight: bold;
+   
+}
+#sec,#tens{
+    font-size: 2em;
+}
+#Start,#stop,#reset{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 80%;
+    border-color: #fff;
+    background-color:  orange;
+}
+#Start:hover{
+    background-color: #fff;
+    animation-duration: 1s;
+}
+#stop:hover{
+    background-color: #fff;
+    animation-duration: 1s;
+}
+#reset:hover{
+    background-color: #fff;
+    animation-duration: 0.1s;
+}
